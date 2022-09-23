@@ -1,0 +1,29 @@
+.navbar {
+    width: 1500px;
+    height: 63px;
+    background-color: #1E1ADD;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    font-weight: 700px;
+    margin-left: 2rem;
+}
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    width: 30vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+.nav-links {
+    color: #fff;
+    text-decoration: none;
+    font-style: medium;
+    font-size: 16px;
+    padding: 0.2rem 1.2rem;
+}

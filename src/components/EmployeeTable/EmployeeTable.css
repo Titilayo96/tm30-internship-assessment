@@ -1,0 +1,59 @@
+.employee {
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    border-radius: 9px;
+    max-width: 855px;
+    width: 100%;
+    height: 440px;
+    margin: 28px;
+    padding: 15px;
+}
+
+.title {
+    color: gray;
+    font-weight: 400px;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 3px solid #e5e5e5e5;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    
+  }
+   
+  th,
+  td {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  th {
+    font-weight: 600;
+    fill: gray;
+
+  }
+  /* 
+  form {
+    display: flex;
+    gap: 5px;
+  }
+  
+  form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  form * {
+    font-size: 28px;
+  }  */
